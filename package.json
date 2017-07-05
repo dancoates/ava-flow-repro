@@ -1,0 +1,19 @@
+{
+  "name": "ava-flow-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dan Coates <dan.coates@blueflag.com.au>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "ava": "^0.20.0",
+    "babel-preset-blueflag": "^0.5.0",
+    "babel-register": "^6.24.1",
+    "flow-bin": "^0.49.1"
+  },
+  "ava": {
+    "babel": "inherit"
+  }
+}
